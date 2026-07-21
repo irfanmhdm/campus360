@@ -18,5 +18,11 @@ app.controller('dashboardController', function($scope) {
     $scope.totalStudents++;
 }
 
+    $scope.showstudent = true;
+
+    $scope.toggleStudent = function() {
+        $scope.showstudent = !$scope.showstudent;
+    }
+
     console.log("Dashboard Controller is loaded");
 });
