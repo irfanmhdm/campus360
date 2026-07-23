@@ -1,99 +1,20 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+.red{
+    color: red;
+    font-weight: bold;
 }
 
-/* Body */
-body {
-    background: #f4f7fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.green{
+    color: green;
+    font-weight: bold;
 }
 
-/* Main Container */
-.dashboard {
-    width: 500px;
-    background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+.grey{
+    color:grey;
+    font-weight: bold;
 }
 
-/* Heading */
-h1 {
-    text-align: center;
-    color: #1f4e79;
-    margin-bottom: 25px;
+body{
+    font-family: Arial, sans-serif;
+    background-color:azure;
 }
 
-/* Paragraph */
-p {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-/* Inputs */
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-input:focus {
-    outline: none;
-    border-color: #1f4e79;
-    box-shadow: 0 0 5px rgba(31, 78, 121, 0.3);
-}
-
-/* Buttons */
-button {
-    background: #1f4e79;
-    color: white;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 15px;
-    margin-bottom: 15px;
-    transition: 0.3s;
-}
-
-button:hover {
-    background: #163b5c;
-    transform: translateY(-2px);
-}
-
-/* Student List */
-h2 {
-    margin-top: 20px;
-    color: #1f4e79;
-}
-
-ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-li {
-    background: #eef4ff;
-    padding: 10px;
-    margin: 8px 0;
-    border-left: 5px solid #1f4e79;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-li:hover {
-    background: #dce9ff;
-    transform: translateX(5px);
-}
