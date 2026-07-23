@@ -30,6 +30,16 @@ app.controller("dashboardcontroller", function ($scope) {
       
     };
 
-    
+    $scope.isReadOnly = true;
+        $scope.toogleReadOnly = function (){
+            
+            $scope.isReadOnly = !$scope.isReadOnly;
+        };
+
+        $scope.isDisabled = true;
+        $scope.allowAdmission = function(){
+
+            $scope.isDisabled = false;
+        };
 
 });
